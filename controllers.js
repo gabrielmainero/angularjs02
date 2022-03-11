@@ -23,7 +23,6 @@ appDemo.controller('InstrumentosListadoCtrl', function ($scope) {
     
         return false;
     }
-
     $scope.retirar = function($index) {
         if(confirm('¿Está seguro que desea eliminar dicho registro?')){
             $scope.model.splice($index,1);
